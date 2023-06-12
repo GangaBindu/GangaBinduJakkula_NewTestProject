@@ -19,7 +19,8 @@ git clone : https://github.com/GangaBindu/GangaBinduJakkula_NewTestProject.git
 2. Import the project into your preferred IDE.
 
 3. Resolve dependencies using Maven:
- mvn clean install
+
+   mvn clean install
 
  Note: WebDrivers(e.g: ChromeDriver, Edge) path is set to relative user directory path
 ## Project Structure
@@ -27,9 +28,7 @@ git clone : https://github.com/GangaBindu/GangaBinduJakkula_NewTestProject.git
 - `src/test/java/stepDefintions`: Contains the test steps (StepDefintiion file) code corresponding to the feature files with file name "BorrowingCalculatorSteps.java".
 - `src/test/java/stepDefintions`: Contains the test Runner file to run tests.
 - `src/test/resources/features`: Contains the Gherkin feature file with file name "borrowingCalculator.feature"
-## Output Reports
 
-This project generates Cucumber HTML/json reports after each test run. The reports can be found in the `target/cucumber-reports.html and target/Json_Output/cucumber-reports.json`directory.
 ## Sample Test case
 
 Example of a feature file:
@@ -54,11 +53,17 @@ Gherkin:
     And Submit work out how much i could borrow
     And Wait for the page to be loaded
     Then Validate borrowing amount estimate of "$492,000"
+
 ## Test run
 
 To run the tests, use the following command:
 
 mvn clean test
+
+## Output Reports
+
+This project generates Cucumber HTML/json reports after each test run. The reports can be found in the `target/cucumber-reports.html and target/Json_Output/cucumber-reports.json`directory.
+
 ## Troubleshooting
 
 If you encounter any issues, try the following troubleshooting steps:
