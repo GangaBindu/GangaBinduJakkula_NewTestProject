@@ -71,8 +71,3 @@ If you encounter any issues, try the following troubleshooting steps:
 ## Author
 
 Ganga Bindu Jakkula
-## Project Structure
-
-- `src/test/java/stepDefintions`: Contains the test steps (StepDefintiion file) code corresponding to the feature files with file name "BorrowingCalculatorSteps.java".
-- `src/test/java/stepDefintions`: Contains the test Runner file to run tests.
-- `src/test/resources/features`: Contains the Gherkin feature file with file name "borrowingCalculator.feature"
